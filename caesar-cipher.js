@@ -12,7 +12,7 @@ function caesarCipher(shift, text, alphabet = ALPHABET) {
 		if ((index + shift) >= alphabet.length) {
 			return alphabet[(index + shift) - alphabet.length];
 		} else if ((index + shift) < 0) {
-		 return alphabet[(index + shift) + alphabet.length];
+			return alphabet[(index + shift) + alphabet.length];
 		}
 		
 		return alphabet[index + shift];
